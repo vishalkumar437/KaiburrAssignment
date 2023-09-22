@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      host: vigorous_engelbart
+      port: 27017
+      database: KaiburrAssignment
