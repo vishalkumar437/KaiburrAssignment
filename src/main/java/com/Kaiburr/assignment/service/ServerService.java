@@ -18,6 +18,4 @@ public interface ServerService {
     void deleteServer(String id);
 
     void updateServer(String id, Servers server);
-
-    Servers getServerbyID(String id);
 }
