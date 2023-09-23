@@ -1,18 +1,23 @@
 # KaiburrAssignment
-Task 1
-  With api RequestMapping PUT, GET, DELETE
+## Task 1
+
+  #### With api Request Mapping PUT, GET, DELETE
   
-  PUT servers
-  ![ezgif-4-3ac166a105](https://github.com/vishalkumar437/KaiburrAssignment/assets/24975002/18d4afd1-2ce7-4435-a858-9a269e5a2fed)
+### PUT servers Endpoint ``/putServer``
 
-  GET servers
-  ![ezgif-4-782cddcbe3](https://github.com/vishalkumar437/KaiburrAssignment/assets/24975002/1e915940-e004-4a3a-9af1-efec3083922b)
+  ![ezgif-4-5961a388c8.gif](ScreenShots/ezgif-4-5961a388c8.gif)
 
-  DELETE
-  ![ezgif-4-cc312c64cd](https://github.com/vishalkumar437/KaiburrAssignment/assets/24975002/63d4daaf-bc75-4c1f-90ab-2a44ccd51574)
+### GET servers Endpoint ``/getServers``
 
-  GET by name
-  ![ezgif-4-b5148fc74c](https://github.com/vishalkumar437/KaiburrAssignment/assets/24975002/7cab9261-b907-4429-a4b8-9651ed1546dc)
+  ![ezgif-4-a6d1455c63](ScreenShots/ezgif-4-a6d1455c63.gif)
 
+### GET by ID Endpoint ``/getServers/{id}``
+  ![ezgif-4-f0e3923a1c](ScreenShots/ezgif-4-f0e3923a1c.gif)
+
+### DELETE Endpoint ``/deleteServer/{id}``
+  ![ezgif-4-23948dd34b](ScreenShots/ezgif-4-23948dd34b.gif)
+
+### GET by name Endpoint ``/getServerByName/{name}``
+  ![ezgif-4-95e9f956ce](ScreenShots/ezgif-4-95e9f956ce.gif)
 Task 3 
   yml and docker files can be found in task 3 as well as in project itself.

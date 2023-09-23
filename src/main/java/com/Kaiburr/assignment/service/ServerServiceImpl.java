@@ -51,4 +51,9 @@ public class ServerServiceImpl implements ServerService{
         serversRepository.save(foundServer);
     }
 
+    @Override
+    public Servers fetchServerById(String id) {
+        return serversRepository.findById(id).get(0);
+    }
+
 }

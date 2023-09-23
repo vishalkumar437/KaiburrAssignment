@@ -45,6 +45,16 @@ public class ServerController {
         return serverService.fetchAllServers();
     }
 
+    @GetMapping("/getServers/{id}")
+    public ResponseEntity<?> fetchServerById(@PathVariable("id") String id){
+        LOGGER.info("Fetching server by ID");
+        if(serverService.isPresent(id)){
+            Servers server = serverService.fetchServerById(id);
+            return new ResponseEntity<>(server,HttpStatus.OK);
+        }
+            return new ResponseEntity<String>("Server Not Found",HttpStatus.NOT_FOUND);
+    }
+
     @GetMapping("/getServerByName/{name}")
     public ResponseEntity<?> fetchServersByName(@PathVariable("name") String name){
         LOGGER.info("Fetching Server with the Server name Provided");
