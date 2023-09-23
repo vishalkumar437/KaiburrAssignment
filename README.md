@@ -19,5 +19,3 @@
 
 ### GET by name Endpoint ``/getServerByName/{name}``
   ![ezgif-4-95e9f956ce](ScreenShots/ezgif-4-95e9f956ce.gif)
-Task 3 
-  yml and docker files can be found in task 3 as well as in project itself.
